@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student App</title>
+    <title>Contact</title>
 </head>
 <body>
 
@@ -31,27 +31,26 @@
     </div>
   </div>
 </nav>
+
 <br>
-    <div class="container">
-    <div class="col-lg-4">
-    <h2>STUDENT</h2><BR>
-        <table class="table table-borderless">
-        <tr>
-            <td><input type="text" class="form-control" placeholder="Name"></td>
-        </tr>
-        <tr>
-            <td><input type="text" class="form-control" placeholder="RollNo"></td>
-        </tr>
-        <tr>
-            <td><input type="text" class="form-control" placeholder="Admission No."></td>
-        </tr>
-        <tr>
-            <td><input type="text" class="form-control" placeholder="College"></td>
-        </tr>
-        <tr>
-            <td><button class="btn btn-outline-primary">Register</button></td>
-        </tr>
-        </table>
+<div class="container">
+<div class="col-lg-6">
+    <h2>CONTACT FORM</h2><BR>
+    <table class="table table-borderless">
+    <tr>
+        <td><input type="text" class="form-control" placeholder="Name"></td>
+    </tr>
+    <tr>
+        <td><textarea name="" id="" cols="30" rows="10" class="form-control" placeholder="Message"></textarea></td>
+    </tr>
+    <tr>
+        <td><input type="number" class="form-control" placeholder="Phone"></td>
+    </tr>
+    <TR>
+        <TD>   <button class="btn btn-outline-primary">SUBMIT</button></TD>
+    </TR>
+    </table>
+    
     </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
